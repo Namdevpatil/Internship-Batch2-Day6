@@ -1,0 +1,29 @@
+class: it is a blueprint/template to create/instanciate an objects.
+
+object: java object is a real time entity, which will get the memory allocation
+        in RAM(HEAP) memory. when it is created based on class name.
+        
+class properties:
+- fields/variables: state/identity of the object.
+
+	=> these fields again divided into two types
+	
+	1. non-static fields/variables: means they are not declared with 'static' keyword. 
+	2. static fields/variables: means declared with 'static' keyword.
+	
+- behavior/methods: to write a logic/print object details. 
+ 	=> these methods again divided into two types
+ 	
+ 	1. non-static methods: means they are not declared with 'static' keyword. 
+	2. static methods: means they are declared with 'static' keyword.
+
+- constructor: 
+	- it is a special method, use to initialize an object.
+	- class name and constructor must be same.
+	- constructor do not have return type,	
+	- Note: but constructor will return current class object.
+	
+	=> these constructors are again of two types,
+	1. default/zero/no-parameterized constructor
+	2. parameterized constructor
+		
